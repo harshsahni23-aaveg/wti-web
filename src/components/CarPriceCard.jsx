@@ -1,5 +1,6 @@
 import React from "react";
 import SliderSlick, { Slider } from "./SliderSlick";
+import  "./../utils/font-poppins.css"
 
 function CarPriceCard() {
   const carImgArray = "/images-ae/KiaPicanto.png";
@@ -22,7 +23,7 @@ function CarPriceCard() {
                   <div className="car-price-card relative bg-white border rounded-xl shadow-[0px_3px_20px_0px_#00000026]">
                     <div className="absolute bg-[#092C85] top-4 left-0 h-[48px] w-[140px] rounded-tr-[30px] rounded-br-[30px]">
                       <div className="flex justify-center items-center gap-3 h-full ">
-                        <span className="text-white ">Verified</span>
+                        <span className="text-white font-poppins">Verified</span>
                         <img src="/images-ae/check_circle.svg" alt="" />
                       </div>
                     </div>
@@ -33,30 +34,30 @@ function CarPriceCard() {
                     </div>
                     <div>
                       <div className="flex flex-col ml-4">
-                        <h4 className="font-semibold text-2xl my-2">{brandName}</h4>
+                        <h4 className="font-poppins font-semibold text-2xl my-2">{brandName}</h4>
                         <div className="flex justify-between">
                           <div>
-                            <div className="flex flex-col gap-3 pr-4 pl-0">
+                            <div className="font-sans flex flex-col gap-3 pr-4 pl-0">
                               <div className="flex gap-4">
                                 <img src="images-ae/car_icon.svg" alt="" />
-                                <span className="font-normal text-base text-[#717171]">{car_size}</span>
+                                <span className="font-normal text-sm text-[#717171]">{car_size}</span>
                               </div>
                               <div className="flex gap-4">
                                 <img src="images-ae/passenger_icon.svg" alt="" />
-                                <span className="font-normal text-base text-[#717171]">{num_of_seats}</span>
+                                <span className="font-normal text-sm text-[#717171]">{num_of_seats}</span>
                               </div>
                             </div>
                           </div>
                           <div className="w-[2px] bg-[#DFDFDF]"></div>
                           <div>
-                            <div className="flex flex-col gap-3 px-4">
+                            <div className="font-sans flex flex-col gap-3 px-4">
                               <div className="flex gap-4">
                                 <img src="images-ae/safety_seat.svg" alt="" />
-                                <span className="font-normal text-base text-[#717171]">{passenger}</span>
+                                <span className="font-normal text-sm text-[#717171]">{passenger}</span>
                               </div>
                               <div className="flex gap-4">
                                 <img src="images-ae/doors.svg" alt="" />
-                                <span className="font-normal text-base text-[#717171]">{doors}</span>
+                                <span className="font-normal text-sm text-[#717171]">{doors}</span>
                               </div>
                             </div>
                           </div>
@@ -66,10 +67,10 @@ function CarPriceCard() {
                     <div className="fare-and-price ml-4">
                     <div className="border-t-2 border-#D9D9D9 w-[95%] my-3"></div>
                       <div className="my-4">
-                        <h2 className="text-[#092C85] text-2xl font-semibold">
+                        <h2 className="font-poppins text-[#092C85] text-2xl font-semibold">
                           {price} <span className="text-[#7E7E7E] font-normal text-lg">per month</span>
                         </h2>
-                        <span className="text-[#5C5C5C] font-normal text-lg">{leaseTime}</span>
+                        <span className="font-poppins text-[#5C5C5C] font-normal text-lg">{leaseTime}</span>
                       </div>
                     </div>
                   </div>

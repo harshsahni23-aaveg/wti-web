@@ -78,11 +78,11 @@ function CarImg() {
       <div className="md:h-auto w-full">
         <div className="grid grid-cols-2 gap-1 md:gap-0">
           {carImgArr?.map((item, index) => (
-            <div key={index} className="flex">
+            <div key={index} className="flex md:w-[95%]  md:h-[95%]">
               <img
                 src={item.img}
                 alt={item.alt}
-                className="w-[100%] h-[100%] md:w-[80%]  md:h-[80%] lg:w-[100%] lg:h-auto object-cover"
+                className="w-[100%] h-[100%]  lg:w-[100%] lg:h-auto object-cover"
               />
             </div>
           ))}

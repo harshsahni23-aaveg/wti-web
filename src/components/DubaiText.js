@@ -4,7 +4,7 @@ function DubaiText() {
   return (
     <div className="mx-auto w-full xl:w-[1200px]">
       <div className="pt-2 h-auto md:pt-0 lg:mx-16 xl:mx-0">
-        <div className="mx-auto pb-4 h-auto mb-14 shadow-[0px_4px_10px_0px_#B1B1B140] rounded-xl">
+        <div className="font-sans mx-auto pb-4 h-auto mb-14 shadow-[0px_4px_10px_0px_#B1B1B140] rounded-xl">
           {" "}
           <div className="text-center lg:pt-[28px] text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold pt-[1.5rem]">
             Dubai’s No.1 Fleet Company <br />

@@ -11,7 +11,7 @@ function TopBrandImg() {
             alt="Top Brand"
           />
         </div>
-        <div>
+        <div className="font-roboto">
           <div className="font-bold text-lg absolute md:text-3xl md:top-[3rem] sm:text-xl sm:top-[1.5rem] top-[1rem]  left-[2rem] lg:top-[4rem] md:ml-0 lg:ml-8 text-white">
             Effortless Corporate <br />
             Mobility
