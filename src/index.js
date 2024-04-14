@@ -1,23 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TopBrandImg from "./components/TopBrandImg";
 import CarRentalImg from "./components/CarRentalImg";
 import DubaiText from "./components/DubaiText";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Card from "./components/Card";
+import CarPriceCard from './components/CarPriceCard';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
     <TopBrandImg />
     <CarRentalImg />
     <DubaiText />
     <WhyChooseUs />
     <Card />
+    <CarPriceCard/>
   </React.StrictMode>
 );
 
